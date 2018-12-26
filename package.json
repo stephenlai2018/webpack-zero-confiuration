@@ -1,9 +1,10 @@
 {
   "name": "es6-features-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack with zero configuration",
   "main": "main.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -12,5 +13,6 @@
   "devDependencies": {
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
+    "webpack-dev-server": "^3.1.14"
   }
 }
